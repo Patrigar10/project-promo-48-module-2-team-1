@@ -1,0 +1,27 @@
+.form {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 1024px) {
+        flex-direction: row;
+    }
+
+    &__fieldsets {
+        padding: 20px;
+
+        @media (min-width: 1024px) {
+            width: 50vw;
+        }
+
+
+    }
+
+    &__preview {
+        padding: 20px;
+        border: solid black 1px;
+
+        @media (min-width: 1024px) {
+            width: 50vw;
+        }
+    }
+}
