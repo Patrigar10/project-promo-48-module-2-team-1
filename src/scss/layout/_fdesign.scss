@@ -1,8 +1,36 @@
 .design {
-    display: flex;
+    display: block;
+    padding: 20px;
+    
+
+    &-models {
+        display: flex;
+        padding-top: 25px;
+        
+        &-image {
+            height: 30px;
+            width: 30px;
+            margin-right: 40px;
+        }
+
+    }
+
+    &-tittle {
+        display: flex;
+
+        &-arrow {
+            margin-left: 10px;
+            height: 15px;
+            width: 15px;
+            
+        }
+        
+    }
+
+    
 
    
     }
 
-input {align-self: flex-start;}
+
 
