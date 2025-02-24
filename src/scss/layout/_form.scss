@@ -8,10 +8,12 @@
 
     &__fieldsets {
         padding: 20px;
+        border: 0;
 
         @media (min-width: 1024px) {
             width: 50vw;
         }
+    
 
 
     }

@@ -2,21 +2,42 @@
  .share {
      display: flex;
      flex-direction: column;
- }
+     justify-content: center;
+     align-items: center;
+     padding-top: 1.5rem;
+     gap: 2rem;
+
+     &__section {
+        display: flex;
+        align-content: center;
+        gap: 1rem;
+        
+    }
+
+    &__btn {
+        background-color: #dfb9a8;
+        color: white;
+        border: #dfb9a8;
+        padding-inline: 18px;
+        padding-block: 10px;
+        border-radius: 20px;
+        font-size: 1.3rem;
+        width: 200px;
+        text-align: center;
+    }
+
+    &__socialMedia {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        padding-bottom: 1.5rem;
+
+ 
     
 
-.compartir {
-    display: flex;
-    align-content: center;
-   
 }
 
-.iconSare {
-    size: 10px;
 
-}
 
-.socialMedia {
-    display: flex;
-    justify-content: space-around;
+
 }
