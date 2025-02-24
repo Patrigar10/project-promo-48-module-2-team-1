@@ -2,4 +2,4 @@
 
 console.log('>> Ready :)');
 
-import"./fshare";
+import "./fshare";
