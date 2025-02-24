@@ -1,0 +1,35 @@
+.fillout{
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+}
+.fillout__header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+
+}
+.fillout__label{
+    padding: 5px;
+}
+
+.fillout__input{
+    color:#54585a ;
+    width: 100%;
+    margin-bottom:20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size:14px;
+    border:none;
+    font-size: 16px;
+    border: 1px solid rgb(189, 186, 186);
+    border-radius: 5px;
+}
+
+
+
+        
+    
+
+
