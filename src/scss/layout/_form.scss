@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 1024px) {
+        flex-direction: row;
+    }
+
+    &__fieldsets {
+        width: 50vw;
+        padding: 20px;
+    }
+
+    &__preview {
+        padding: 100px;
+    }
+}
