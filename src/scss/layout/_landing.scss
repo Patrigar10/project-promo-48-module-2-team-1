@@ -1,3 +1,5 @@
+@use "../core/variables" as vars;
+
 .landing {
 
     display: flex;
@@ -5,6 +7,7 @@
     align-items: center;
     height: 90vh;
     justify-content: center;
+    font-family: vars.$main-font;
 
     @media (min-width: 1024px) {
         flex-direction: row-reverse;

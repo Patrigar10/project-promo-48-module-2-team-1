@@ -1,6 +1,9 @@
+@use "../core/variables" as vars;
+
 .form {
     display: flex;
     flex-direction: column;
+    font-family: vars.$main-font;
 
     @media (min-width: 1024px) {
         flex-direction: row;
