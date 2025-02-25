@@ -11,6 +11,7 @@
             height: 30px;
             width: 30px;
             margin-right: 40px;
+            margin-left: 5px;
         }
 
     }
@@ -19,9 +20,10 @@
         display: flex;
 
         &-arrow {
-            margin-left: 10px;
+            margin-left: 5px;
             height: 15px;
             width: 15px;
+            padding-top: 5px;
             
         }
         
