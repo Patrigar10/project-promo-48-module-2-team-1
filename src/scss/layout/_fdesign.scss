@@ -1,0 +1,38 @@
+.design {
+    display: block;
+    padding: 20px;
+    
+
+    &-models {
+        display: flex;
+        padding-top: 25px;
+        
+        &-image {
+            height: 30px;
+            width: 30px;
+            margin-right: 40px;
+            margin-left: 5px;
+        }
+
+    }
+
+    &-tittle {
+        display: flex;
+
+        &-arrow {
+            margin-left: 10px;
+            margin-top: 5px;
+            height: 15px;
+            width: 15px;
+            
+        }
+        
+    }
+
+    
+
+   
+    }
+
+
+
