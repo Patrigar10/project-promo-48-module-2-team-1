@@ -24,3 +24,18 @@ formFill.addEventListener("input", (event) => {
 /* Si los campos no se rellenan deja lo que había al principio */
 
 // import "./fshare";
+
+
+// Formulario fillout colapsed
+
+const selectedBtn = document.querySelector(".js-btn-add");
+const filloutFormDisplay = document.querySelector(".js-fillout-display");
+
+
+
+selectedBtn.addEventListener("click", (event) => {
+    event.preventDefault();
+    const selectedForm = event.currentTarget;
+    selectedForm.classList.toggle(".collpased");
+    
+});
