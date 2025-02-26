@@ -1,9 +1,20 @@
 <fieldset class="fillout">
     <div class="fillout__header">
         <legend class="fillout__legend">Introduce tus datos</legend>
-        <i class="fa-solid fa-caret-down fillout__icon" style="color: #dfb9a8;"></i>
+        <nav>
+            <ul>
+                <li>
+                    <button class="js-btn-add">
+                        <i class="fa-solid fa-caret-down fillout__icon" style="color: #dfb9a8;"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        
     </div>
 
+    <div class="js-fillout-display">
+        
     <label class="fillout__label" for="name">Nombre</label>
     <input class="fillout__input" id="name" type="text" name="name" placeholder="Nombre">
 
@@ -14,7 +25,7 @@
     <input class="fillout__input" id="place" type="text" name="place" placeholder="Lugar de celebración">
 
     <label class="fillout__label" for="date">Fecha</label>
-    <input class="fillout__input" id="date" type="text" name="date" placeholder="Fecha de nacimiento">
+    <input class="fillout__input" id="date" type="date" name="date" placeholder="Fecha de celebración">
 
     <label class="fillout__label" for="age">Edad</label>
     <input class="fillout__input" id="age" type="text" name="age" placeholder="Edad">
@@ -22,6 +33,8 @@
 
         <label class="fillout__label" for="photo">Sube tu foto</label>
         <input class="fillout__input" id="photo" type="file" name="photo" accept="image/png, image/jpeg" />
+    </div>
+
 
 
 
