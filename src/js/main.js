@@ -5,6 +5,8 @@ const previewName = document.querySelector(".js-preview-name");
 const previewPhrase = document.querySelector(".js-preview-phrase");
 const previewPlace = document.querySelector(".js-preview-place");
 
+
+
 formFill.addEventListener("input", (event) => {
     console.log(event.target.value);
     if (event.target.id === "name") {
