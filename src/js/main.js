@@ -50,11 +50,37 @@ formFill.addEventListener("input", (event) => {
 const resetBtn = document.querySelector(".js-reset-btn");
 // const previewList = document.querySelector(".js-preview-list");
 
+<<<<<<< HEAD
 function reset() {
     formFill.reset(); // Resetea el formulario
     previewName.textContent = "Nombre";
 }
 resetBtn.addEventListener("Click", reset);
+=======
+
+//Botón de reset
+
+function reset(event) {
+    // event.preventDefault();
+    // formFill.reset(); // Resetea el formulario
+    // previewName.innerHTML = "Nombre";
+    console.log("has hecho click");
+}
+  
+resetBtn.addEventListener("click", (event) => {
+    event.preventDefault();
+    formFill.reset();
+    previewName.innerHTML = "Nombre";
+    previewPhrase.innerHTML = "Frase";
+    previewPlace.innerHTML = "Lugar";
+    previewDate.innerHTML = "Fecha";
+    previewAge.innerHTML = "Edad";
+    
+
+})
+
+
+>>>>>>> main
 
 
 
@@ -63,6 +89,11 @@ resetBtn.addEventListener("Click", reset);
 const selectedBtn = document.querySelector(".js-btn-add");
 const filloutFormDisplay = document.querySelector(".js-fillout-display");
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> main
 function handleClick (event) {
     event.preventDefault();
     filloutFormDisplay.classList.toggle("collapsed");
