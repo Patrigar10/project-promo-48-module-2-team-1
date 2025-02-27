@@ -46,13 +46,28 @@ const resetBtn = document.querySelector(".js-reset-btn");
 // const previewList = document.querySelector(".js-preview-list");
 
 
+//Botón de reset
 
-function reset() {
-    formFill.reset(); // Resetea el formulario
-    previewName.textContent = "Nombre";
+function reset(event) {
+    // event.preventDefault();
+    // formFill.reset(); // Resetea el formulario
+    // previewName.innerHTML = "Nombre";
+    console.log("has hecho click");
 }
   
-resetBtn.addEventListener("Click", reset);
+resetBtn.addEventListener("click", (event) => {
+    event.preventDefault();
+    formFill.reset();
+    previewName.innerHTML = "Nombre";
+    previewPhrase.innerHTML = "Frase";
+    previewPlace.innerHTML = "Lugar";
+    previewDate.innerHTML = "Fecha";
+    previewAge.innerHTML = "Edad";
+    
+
+})
+
+
 
 // Formulario fillout colapsed
 
