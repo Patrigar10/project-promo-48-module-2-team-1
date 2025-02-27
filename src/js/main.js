@@ -60,6 +60,6 @@ selectedBtn.addEventListener("click", (event) => {
 const tittleArrow = document.querySelector(".js-tittle-arrow");
 const designModels = document.querySelector(".js-design-models");
 
-tittleArrow.addEventListener("click", (event) => {
-    designModels.classList.toggle(".collapsed");
+tittleArrow.addEventListener ("click", (event) => {
+    designModels.classList.toggle("collapsed");
 })
