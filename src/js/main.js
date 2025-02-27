@@ -25,14 +25,13 @@ formFill.addEventListener("input", (event) => {
 
 /* Si los campos no se rellenan deja lo que había al principio */
 
-// import "./fshare";
+// import "./fshare.js";
 
 
 // Formulario fillout colapsed
 
 const selectedBtn = document.querySelector(".js-btn-add");
 const filloutFormDisplay = document.querySelector(".js-fillout-display");
-
 
 
 selectedBtn.addEventListener("click", (event) => {

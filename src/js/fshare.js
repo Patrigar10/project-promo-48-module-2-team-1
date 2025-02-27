@@ -13,10 +13,20 @@ cuando la usuaria haga click, mostrar un mensaje
           -mobile   - email   -instagram
 
 */
+
+const shareDisplay = document.querySelector(".js-btn-shareDisplay");
+
+shareDisplay.addEventListener("click", (event) => {
+    event.preventDefault();
+    // const selectedShare = event.current.target;
+    // selectedShare.classList.add(".collapsed");
+    
+
+});
+
 const createButton = document.querySelector(".js-btn-create")
-console.log("hola");
 createButton.addEventListener("click", (event) => {
     event.preventDefault();
-   const createCard = createButton.Value;
-   message.innerHTML = "La tarjeta ha sido creada:"
+//    const createCard = createButton.Value;
+//    message.innerHTML = "La tarjeta ha sido creada:"
 });
