@@ -40,3 +40,4 @@ function handleClick (event) {
 };
 
 selectedBtn.addEventListener("click", handleClick);
+
