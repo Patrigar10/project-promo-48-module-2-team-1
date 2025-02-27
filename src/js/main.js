@@ -33,9 +33,10 @@ const filloutFormDisplay = document.querySelector(".js-fillout-display");
 
 
 
-selectedBtn.addEventListener("click", (event) => {
+function handleClick (event) {
     event.preventDefault();
-    const selectedForm = event.currentTarget;
-    selectedForm.classList.toggle(".collpased");
+    filloutFormDisplay.classList.toggle("collapsed");
     
-});
+};
+
+selectedBtn.addEventListener("click", handleClick);
