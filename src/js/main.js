@@ -24,3 +24,16 @@ formFill.addEventListener("input", (event) => {
 /* Si los campos no se rellenan deja lo que había al principio */
 
 // import "./fshare";
+
+const resetBtn = document.querySelector(".js-reset-btn");
+// const previewList = document.querySelector(".js-preview-list");
+
+
+
+function reset() {
+    formFill.reset(); // Resetea el formulario
+    previewName.textContent = "Nombre";
+}
+  
+resetBtn.addEventListener("Click", reset);
+

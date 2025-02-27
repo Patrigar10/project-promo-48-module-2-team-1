@@ -72,13 +72,14 @@
         }
 
         &__link {
-            background-color: #dfb9a8;
+            background-color: vars.$main-color;
             color: white;
             padding-inline: 18px;
             padding-block: 10px;
             border-radius: 20px;
             font-size: 1.3rem;
             text-align: center;
+            margin-bottom: 30px;
 
         }
     }

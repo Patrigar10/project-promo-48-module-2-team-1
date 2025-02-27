@@ -1,23 +1,24 @@
+@use "../core/variables" as vars;
 
- .share {
-     display: flex;
-     flex-direction: column;
-     padding-top: 1.5rem;
-     gap: 2rem;
-     max-width: 80%;
+.share {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    gap: 2rem;
+    max-width: 80%;
 
-     &__section {
+    &__section {
         display: flex;
         justify-content: space-around;
         align-content: center;
         gap: 1rem;
-        
+
     }
 
     &__btn {
-        background-color: #dfb9a8;
+        background-color: vars.$main-color;
         color: white;
-        border: #dfb9a8;
+        border: vars.$main-color;
         padding-inline: 18px;
         padding-block: 10px;
         border-radius: 20px;
@@ -32,10 +33,10 @@
         gap: 20px;
         padding-bottom: 1.5rem;
 
- 
-    
 
-}
+
+
+    }
 
 
 
