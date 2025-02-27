@@ -9,13 +9,27 @@
 
     &__section {
         display: flex;
-        justify-content: space-around;
-        align-content: center;
+        justify-content: flex-start;
         gap: 1rem;
-
     }
+}
 
-    &__btn {
+.btn-shareDisplay{
+    border: none;
+    background-color: white;
+} 
+
+
+.shareOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5rem;
+    gap: 2rem;
+
+}
+
+.share-btn-createCard {
         background-color: vars.$main-color;
         color: white;
         border: vars.$main-color;
@@ -27,18 +41,16 @@
         text-align: center;
     }
 
-    &__socialMedia {
+ .share-socialMedia {
         display: flex;
         justify-content: space-around;
         gap: 20px;
         padding-bottom: 1.5rem;
-
-
-
-
     }
 
+    .collapsed{
+        display: none;
+    }
 
+     
 
-
-}

@@ -1,5 +1,8 @@
 'use strict';
 
+import "./fshare.js";
+
+
 const formFill = document.querySelector(".js-formfill");
 const previewName = document.querySelector(".js-preview-name");
 const previewPhrase = document.querySelector(".js-preview-phrase");
@@ -42,37 +45,29 @@ formFill.addEventListener("input", (event) => {
 
 /* Si los campos no se rellenan deja lo que había al principio */
 
-// import "./fshare.js";
+
 
 const resetBtn = document.querySelector(".js-reset-btn");
 // const previewList = document.querySelector(".js-preview-list");
-
-
 
 function reset() {
     formFill.reset(); // Resetea el formulario
     previewName.textContent = "Nombre";
 }
-  
 resetBtn.addEventListener("Click", reset);
+
+
 
 // Formulario fillout colapsed
 
 const selectedBtn = document.querySelector(".js-btn-add");
 const filloutFormDisplay = document.querySelector(".js-fillout-display");
 
-
-<<<<<<< HEAD
-selectedBtn.addEventListener("click", (event) => {
-=======
-
 function handleClick (event) {
->>>>>>> 90b49ea09259eb1dccda4748c29b8f1e2965dcb7
     event.preventDefault();
     filloutFormDisplay.classList.toggle("collapsed");
-    
+   
 };
-
 selectedBtn.addEventListener("click", handleClick);
 
 
@@ -85,6 +80,5 @@ function handleClickTwo (event) {
     designModels.classList.toggle("collapsed");
     
 };
-
 tittleArrow.addEventListener("click", handleClickTwo);
 
