@@ -1,24 +1,43 @@
+@use "../core/variables" as vars;
+
+.reset__box {
+    text-align: end;
+    padding: 30px;
+    margin-right: 55px;
+}
+
+.reset-btn {
+    background-color: vars.$main-color;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    font-family: inherit;
+}
+
 .preview {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 
-.preview__card{
+.preview__card {
     width: 300px;
     height: 400px;
     background-color: #dfb9a8;
 }
 
-.card__image{
-width: 200px;
-height: 200px;
-align-content: center;
+.card__image {
+    width: 200px;
+    height: 200px;
+    align-content: center;
 
 }
 
-.list{
+.list {
     display: flex;
     flex-direction: column;
     align-items: center;
