@@ -1,6 +1,9 @@
 'use strict';
 
+
+import "./design.js";
 import "./fshare.js";
+
 
 
 const formFill = document.querySelector(".js-formfill");
@@ -68,6 +71,9 @@ resetBtn.addEventListener("click", (event) => {
     previewPlace.innerHTML = "Lugar";
     previewDate.innerHTML = "Fecha";
     previewAge.innerHTML = "Edad";
+    previewCard.classList.remove("background__model1");
+    previewCard.classList.remove("background__model2");
+    previewCard.classList.remove("background__model3");
     
 
 })
