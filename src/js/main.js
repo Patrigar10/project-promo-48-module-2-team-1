@@ -45,7 +45,7 @@ formFill.addEventListener("input", (event) => {
 
 /* Si los campos no se rellenan deja lo que había al principio */
 
-
+// AQUI TUVE CONFLICTO CON FUNCTION-RESET. MANTUVE LOS DOS. CHEQUEAR:
 
 const resetBtn = document.querySelector(".js-reset-btn");
 // const previewList = document.querySelector(".js-preview-list");
