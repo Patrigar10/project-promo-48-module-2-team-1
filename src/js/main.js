@@ -50,13 +50,11 @@ formFill.addEventListener("input", (event) => {
 const resetBtn = document.querySelector(".js-reset-btn");
 // const previewList = document.querySelector(".js-preview-list");
 
-<<<<<<< HEAD
 function reset() {
     formFill.reset(); // Resetea el formulario
     previewName.textContent = "Nombre";
 }
 resetBtn.addEventListener("Click", reset);
-=======
 
 //Botón de reset
 
@@ -80,7 +78,6 @@ resetBtn.addEventListener("click", (event) => {
 })
 
 
->>>>>>> main
 
 
 
@@ -89,11 +86,8 @@ resetBtn.addEventListener("click", (event) => {
 const selectedBtn = document.querySelector(".js-btn-add");
 const filloutFormDisplay = document.querySelector(".js-fillout-display");
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> main
 function handleClick (event) {
     event.preventDefault();
     filloutFormDisplay.classList.toggle("collapsed");
