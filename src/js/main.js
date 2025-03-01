@@ -52,7 +52,21 @@ const resetBtn = document.querySelector(".js-reset-btn");
 // const previewList = document.querySelector(".js-preview-list");
 
 
+function reset() {
+    formFill.reset(); // Resetea el formulario
+    previewName.textContent = "Nombre";
+}
+resetBtn.addEventListener("Click", reset);
+
+
 //Botón de reset
+
+function reset(event) {
+    // event.preventDefault();
+    // formFill.reset(); // Resetea el formulario
+    // previewName.innerHTML = "Nombre";
+    console.log("has hecho click");
+}
   
 resetBtn.addEventListener("click", (event) => {
     event.preventDefault();
@@ -62,6 +76,7 @@ resetBtn.addEventListener("click", (event) => {
     previewPlace.innerHTML = "Lugar";
     previewDate.innerHTML = "Fecha";
     previewAge.innerHTML = "Edad";
+    
 
 })
 
