@@ -31,8 +31,13 @@
     <input class="fillout__input" id="age" type="text" name="age" placeholder="Edad">
     
 
-        <label class="fillout__label" for="photo">Sube tu foto</label>
-        <input class="fillout__input" id="photo" type="file" name="photo" accept="image/png, image/jpeg" />
+    <label class="fillout__label" for="photo">Sube tu foto</label>
+    <label class="form__photobutton js__profile-trigger" for="photo">Añadir imagen</label>
+    <input class="fillout__input form-photo js__profile-upload-btn" id="photo" type="file" name="photo" accept="image/png, image/jpeg"/>
+    <div class="form__photothumb">
+        <img class="js__profile-image" src="../Images/nina.png" alt="Preview">
+    </div>
+
     </div>
 
 

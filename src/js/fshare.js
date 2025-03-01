@@ -7,7 +7,7 @@
 */
 
 const shareDisplay = document.querySelector(".js-btn-shareDisplay");
-const shareOptions = document.querySelector(".js-shareOptions")
+const shareOptions = document.querySelector(".js-shareOptions");
 
 
 
