@@ -39,6 +39,7 @@
     width: 200px;
     height: 200px;
     align-content: center;
+    overflow: hidden;
 
 }
 
@@ -61,4 +62,8 @@
 .background__model3 {
     background-image: url('../../Images/MODELO\ HOJA.png');
     background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
 }
