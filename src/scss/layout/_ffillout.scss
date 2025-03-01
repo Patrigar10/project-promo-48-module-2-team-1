@@ -1,11 +1,15 @@
+@use "../core/variables" as vars;
+
+
 .fillout{
+
     display: flex;
     flex-direction: column;
     max-width: 80%;
 }
 .fillout__header{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     padding: 20px;
 
 
@@ -36,5 +40,26 @@
 .button-intro{
     border: none;
     background-color: white;
+    padding-left: 30px;
 }
 
+.form-photo{
+    display:none;
+}
+
+.form__photobutton{
+    width: 40px;
+    height: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: vars.$main-color;
+    font-size: 10px;
+}
+
+.form__photothumb{
+    width: 40px;
+    height: 40px;
+    border: solid 2px vars.$main-color;
+    overflow: hidden;
+
+}

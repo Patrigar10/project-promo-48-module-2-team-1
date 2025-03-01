@@ -1,6 +1,7 @@
 'use strict';
 
 import "./fshare.js";
+import "./get-avatar.js"
 
 
 const formFill = document.querySelector(".js-formfill");
@@ -49,6 +50,13 @@ formFill.addEventListener("input", (event) => {
 
 const resetBtn = document.querySelector(".js-reset-btn");
 // const previewList = document.querySelector(".js-preview-list");
+
+
+function reset() {
+    formFill.reset(); // Resetea el formulario
+    previewName.textContent = "Nombre";
+}
+resetBtn.addEventListener("Click", reset);
 
 
 //Botón de reset
