@@ -41,7 +41,13 @@
     align-content: center;
     overflow: hidden;
 
+    &__src {
+        width: 100%;
+    }
+
 }
+
+
 
 .list {
     display: flex;

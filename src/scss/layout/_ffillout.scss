@@ -1,65 +1,72 @@
 @use "../core/variables" as vars;
 
 
-.fillout{
+.fillout {
 
     display: flex;
     flex-direction: column;
     max-width: 80%;
 }
-.fillout__header{
+
+.fillout__header {
     display: flex;
     justify-content: flex-start;
     padding: 20px;
 
 
 }
-.fillout__label{
+
+.fillout__label {
     padding: 5px;
 }
 
-.fillout__input{
-    color:#54585a ;
+.fillout__input {
+    color: #54585a;
     width: 100%;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     padding: 7px;
     box-sizing: border-box;
-    font-size:14px;
-    border:none;
+    font-size: 14px;
+    border: none;
     font-size: 16px;
     border: 1px solid rgb(189, 186, 186);
     border-radius: 5px;
 }
 
 
-.collapsed{
+.collapsed {
     display: none;
 }
-        
-    
-.button-intro{
+
+
+.button-intro {
     border: none;
     background-color: white;
     padding-left: 30px;
 }
 
-.form-photo{
-    display:none;
+.form-photo {
+    display: none;
 }
 
-.form__photobutton{
+.form__photobutton {
     width: 40px;
     height: 15px;
     border-radius: 5px;
     padding: 5px;
     background-color: vars.$main-color;
     font-size: 10px;
+
 }
 
-.form__photothumb{
+.form__photothumb {
     width: 40px;
     height: 40px;
     border: solid 2px vars.$main-color;
     overflow: hidden;
+
+    &__src {
+        width: 100%;
+    }
 
 }
