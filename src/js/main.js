@@ -42,6 +42,7 @@ formFill.addEventListener("input", (event) => {
   console.log(formData);
 });
 
+
 /* Si los campos no se rellenan deja lo que había al principio */
 
 const resetBtn = document.querySelector(".js-reset-btn");
