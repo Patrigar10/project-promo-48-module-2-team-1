@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/ea1e0d8741.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    
+  <link rel="stylesheet" href="./assets/form-0122a405.css">
+  <link rel="stylesheet" href="./assets/main-adbf6258.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+    <a href="../index.html"><img class="header__img" src="../Images/logo-adjusted.jpg"
+            alt="logo ilustración de un conejo"></a>
+</div>
+    </header>
+    <div class="form">
+        <section class="form__fieldsets">
+            <form class="js-formfill form-fill" action="">
+                <fieldset class="design">
+
+   <div class="design-tittle">
+      <legend>Elige el modelo que más te guste</legend>
+      <button class="js-design-arrow design-arrow">
+         <i class="fa-solid fa-caret-down design-tittle-arrow" style="color: #dfb9a8;"></i>
+      </button>
+   </div>
+
+   <section class="design-models js-design-models collapsed">
+      <input class="js-model1" id="model1" type="radio" value="1" name="models">
+      <label for="model1"><img class="design-models-image" src="../Images/balloons_3697313.png" alt="imagen1"></label>
+
+
+      <input class="js-model2" id="model2" type="radio" value="2" name="models">
+      <label for="model2"><img class="design-models-image" src="../Images/alien_13740880.png" alt="imagen2"></label>
+
+
+
+      <input class="js-model3" id="model3" type="radio" value="3" name="models">
+      <label for="model3"><img class="design-models-image" src="../Images/monstera-deliciosa_7363764.png"
+            alt="imagen3"></label>
+   </section>
+
+</fieldset>
+                <fieldset class="fillout">
+    <div class="fillout__header">
+        <legend class="fillout__legend">Introduce tus datos</legend>
+        <nav>
+            <ul>
+                <li>
+                    <button class="js-btn-add button-intro">
+                        <i class="fa-solid fa-caret-down fillout__icon" style="color: #dfb9a8;"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="js-fillout-display collapsed">
+
+        <label class="fillout__label" for="name">Nombre</label>
+        <input class="fillout__input" id="name" type="text" name="name" placeholder="Nombre">
+
+        <label class="fillout__label" for="phrase">Personaliza tu invitación</label>
+        <input class="fillout__input" id="phrase" type="text" name="phrase" placeholder="Personaliza tu invitación">
+
+        <label class="fillout__label" for="place">Lugar de celebración</label>
+        <input class="fillout__input" id="place" type="text" name="place" placeholder="Lugar de celebración">
+
+        <label class="fillout__label" for="date">Fecha</label>
+        <input class="fillout__input" id="date" type="date" name="date" placeholder="Fecha de celebración">
+
+        <label class="fillout__label" for="age">Edad</label>
+        <input class="fillout__input" id="age" type="text" name="age" placeholder="Edad">
+
+
+        <label class="fillout__label" for="photo">Sube tu foto</label>
+        <label class="form__photobutton js__profile-trigger" for="photo">Añadir imagen</label>
+        <input class="fillout__input form-photo js__profile-upload-btn" id="photo" type="file" name="photo"
+            accept="image/png, image/jpeg" />
+        <div class="form__photothumb">
+            <img class="js__profile-image form__photothumb__src" src="../Images/nina.png" alt="Preview">
+        </div>
+
+    </div>
+
+
+
+
+</fieldset>
+                <fieldset class="share">
+
+  <div class="share__section">
+    <legend>Comparte</legend>
+    <button class="js-btn-shareDisplay btn-shareDisplay">
+      <i class="fa-solid fa-caret-down" style="color: #dfb9a8;"></i>
+    </button>
+  </div>
+
+  <section class="js-shareOptions shareOptions collapsed">
+    <button class="js-share-btn-createCard share-btn-createCard">Crear invitación</button>
+    <p class="js-createdCardText">La invitación ha sido creada:</p>
+    <div class="share-socialMedia">
+      <i class="fa-solid fa-mobile-screen" style="color: #dfb9a8;"></i>
+      <i class="fa-solid fa-envelope" style="color: #dfb9a8;"></i>
+      <i class="fa-brands fa-instagram" style="color: #dfb9a8;"></i>
+    </div>
+  </section>
+
+
+</fieldset>
+            </form>
+        </section>
+        <section class="form__preview">
+            <div class="reset__box">
+    <button class="reset-btn js-reset-btn" type="reset">RESET</button>
+</div>
+<section class="preview">
+    <h1>¡Te invito a mi cumpleaños!</h1>
+    <div class="preview__card js-previewCard">
+        <div class="card__image">
+            <img class="js__profile-preview card__image__src" src="../Images/nina.png" alt="Foto por defecto">
+        </div>
+        <ul class="list js-preview-list">
+            <li class="js-preview-name">Nombre</li>
+            <li class="js-preview-phrase">Frase</li>
+            <li class="js-preview-place">Lugar</li>
+            <li class="js-preview-date">Fecha</li>
+            <li class="js-preview-age">Edad</li>
+        </ul>
+    </div>
+
+
+</section>
+        </section>
+    </div>
+    <footer class="footer">
+    <p class="footer__text">Happy Event Adalab &copy; 2025</p>
+    <div class="footer__image">
+        <img class="footer__image__source" src="https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png"
+            alt="logo adalab">
+    </div>
+</footer>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+
+</html>
