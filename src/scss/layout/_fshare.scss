@@ -11,14 +11,17 @@
         display: flex;
         justify-content: flex-start;
         gap: 6.5rem;
+    }
 
-
+    &__icon {
+        margin-left: 75px;
     }
 }
 
 .btn-shareDisplay{
     border: none;
     background-color: white;
+    
 } 
 
 
@@ -55,5 +58,5 @@
         display: none;
     }
 
-     
+    
 

@@ -1,5 +1,11 @@
 @use "../core/variables" as vars;
-
+.preview {
+    width: 100vh;
+    height: 100vh;
+    padding: 0%;
+    margin: 0;
+    background-color: aqua;
+}
 .reset__box {
     text-align: end;
     padding: 30px;
