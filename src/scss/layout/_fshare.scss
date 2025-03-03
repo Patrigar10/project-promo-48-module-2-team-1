@@ -15,6 +15,11 @@
 
     &__icon {
         margin-left: 75px;
+        &:hover {
+            background-color: #dfb9a8a8;
+            cursor: pointer;
+            
+        }  
     }
 }
 
