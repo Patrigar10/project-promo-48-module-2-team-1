@@ -16,10 +16,10 @@
     }
 }
 
-.btn-shareDisplay{
+.btn-shareDisplay {
     border: none;
     background-color: white;
-} 
+}
 
 
 .shareOptions {
@@ -28,32 +28,35 @@
     align-items: center;
     padding-top: 1.5rem;
     gap: 2rem;
-    
+
 
 }
 
 .share-btn-createCard {
-        background-color: vars.$main-color;
-        color: white;
-        border: vars.$main-color;
-        padding-inline: 18px;
-        padding-block: 10px;
-        border-radius: 20px;
-        font-size: 1.3rem;
-        width: 200px;
-        text-align: center;
+    background-color: vars.$main-color;
+    color: white;
+    border: vars.$main-color;
+    padding-inline: 18px;
+    padding-block: 10px;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    width: 200px;
+    text-align: center;
+
+    &:hover {
+        background-color: hwb(19 66% 13% / 0.659);
+        cursor: pointer;
     }
 
- .share-socialMedia {
-        display: flex;
-        justify-content: space-around;
-        gap: 20px;
-        padding-bottom: 1.5rem;
-    }
+}
 
-    .collapsed{
-        display: none;
-    }
+.share-socialMedia {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-bottom: 1.5rem;
+}
 
-     
-
+.collapsed {
+    display: none;
+}
