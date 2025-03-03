@@ -35,15 +35,16 @@
     width: 300px;
     height: 450px;
     background-color: vars.$main-color;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 4px 8px rgb(62, 116, 141);  
+    box-shadow: 0px 4px 8px rgb(62, 116, 141);
     margin-top: 15px;
-    
+    margin-bottom: 60px;
 
-    
+
+
 }
 
 .card__image {
@@ -52,9 +53,9 @@
     align-content: center;
     overflow: hidden;
     border-radius: 100px;
-    box-shadow: 0px 4px 8px rgb(62, 116, 141);  
+    box-shadow: 0px 4px 8px rgb(62, 116, 141);
     margin-top: 8px;
-    
+
 
     &__src {
         width: 100%;

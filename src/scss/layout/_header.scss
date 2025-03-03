@@ -1,0 +1,19 @@
+@use "../core/variables" as vars;
+
+.header {
+    width: 50px;
+
+
+
+    &__img {
+        width: 100%;
+        border-radius: 50%;
+        border: 3px solid #dfb9a8c2;
+        margin-left: 35px;
+        margin-top: 15px;
+
+
+    }
+
+
+}
