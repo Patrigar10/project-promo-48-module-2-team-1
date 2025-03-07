@@ -1,13 +1,14 @@
 .design {
-    display: block;
-    padding: 20px;
-    max-width: 80%;
-    
+    display: flex;
+    flex-direction: column;
+    // max-width: 80%;
+
+
 
     &-models {
-        display: flex;
-        padding-top: 25px;
-        
+        margin-top: 20px;
+
+
         &-image {
             height: 30px;
             width: 30px;
@@ -19,28 +20,29 @@
 
     &-tittle {
         display: flex;
+        justify-content: space-between;
+        padding: 20px;
 
-        &-arrow {
-            margin-left: 10px;
-            margin-top: 5px;
-            height: 15px;
-            width: 15px;  
-        }   
+
+
+        &:hover {
+            background-color: #dfb9a863;
+            cursor: pointer;
+        }
+
+
     }
 
-    }
+}
 
 
-    .design-arrow {
-        border: none;
-        background-color: white;
-    }
-
-
-
-    .collapsed{
-        display: none;
-    }
+.design-arrow {
+    border: none;
+    background-color: none;
+}
 
 
 
+.collapsed {
+    display: none;
+}

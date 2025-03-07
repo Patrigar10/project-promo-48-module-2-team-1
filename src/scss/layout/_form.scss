@@ -1,10 +1,10 @@
 @use "../core/variables" as vars;
 
 .form {
-
     display: flex;
     flex-direction: column;
     font-family: vars.$main-font;
+
 
     @media (min-width: 768px) {
         min-height: 89vh;
@@ -17,11 +17,16 @@
 
     &__fieldsets {
         padding: 20px;
+        display: flex;
+        justify-content: center;
         border: 0;
+
+        @media (min-width: 768px) {}
 
 
         @media (min-width: 1024px) {
             width: 50vw;
+            justify-content: flex-start;
         }
 
 
