@@ -9,13 +9,21 @@
         display: flex;
         justify-content: space-between;
         padding: 20px;
+        background-color: #dfb9a83a;
+        border-radius: 27px;
 
 
+        &:hover {
+            background-color: #dfb9a863;
+            cursor: pointer;
+        }
+
+        @media (min-width: 768px) {
+            max-width: 60%;
+        }
 
     }
-    @media (min-width: 768px){
-        max-width: 60%;
-    }
+
 }
 
 .btn-shareDisplay {
