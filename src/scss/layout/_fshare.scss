@@ -10,10 +10,16 @@
         justify-content: space-between;
         padding: 20px;
 
+        &:hover {
+            background-color: #dfb9a863;
+            cursor: pointer;
+        }
+
 
 
     }
-    @media (min-width: 768px){
+
+    @media (min-width: 768px) {
         max-width: 60%;
     }
 }

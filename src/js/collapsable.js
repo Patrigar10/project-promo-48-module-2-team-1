@@ -8,15 +8,15 @@ const collapsableHeaders = document.querySelectorAll(".js_collapsable_header");
 
 const handleClick = (event) => {
   if (event.currentTarget.classList.contains("js_legend_design")) {
-    designModels.classList.remove("collapsed");
+    designModels.classList.toggle("collapsed");
     filloutFormDisplay.classList.add("collapsed");
     shareOptions.classList.add("collapsed");
   } else if (event.currentTarget.classList.contains("js_legend_fillout")) {
-    filloutFormDisplay.classList.remove("collapsed");
+    filloutFormDisplay.classList.toggle("collapsed");
     designModels.classList.add("collapsed");
     shareOptions.classList.add("collapsed");
   } else {
-    shareOptions.classList.remove("collapsed");
+    shareOptions.classList.toggle("collapsed");
     filloutFormDisplay.classList.add("collapsed");
     designModels.classList.add("collapsed");
   }
