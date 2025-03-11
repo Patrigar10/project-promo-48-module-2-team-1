@@ -8,22 +8,20 @@ Mostrar enlace a la usuaria. */
 const createCardButton = document.querySelector(".js-createCard-btn");
 const linkCard = document.querySelector(".js-linkCard");
 
-function handleCreateCard (ev) {
-    ev.preventDefault();
-    fetch ("https://dev.adalab.es/api/info/data", {
-        method: "POST",
-        body: JSON.stringify(formData),
-        headers: {"Content-type":"aplication/json"}
-    })
-    .then(response => response.JSON())
-    .then(data => {
-        console.log(data);
-    })
-
+function handleCreateCard(ev) {
+  ev.preventDefault();
+  fetch("https://dev.adalab.es/api/info/data", {
+    method: "POST",
+    body: JSON.stringify(formData),
+    headers: { "Content-type": "aplication/json" },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      const idCard = data.infoId;
+      //   console.log(idCard);
+      linkCard.classList.remove("hidden");
+      linkCard.href = `./card.html?id=${idCard}`;
+    });
 }
-
-
-
-
 
 createCardButton.addEventListener("click", handleCreateCard);
