@@ -8,6 +8,9 @@
         padding-top: 40px;
     }
 
+    margin-bottom: 20px;
+
+
 
     &-models {
         margin-top: 20px;
@@ -27,6 +30,10 @@
         justify-content: space-between;
         padding: 20px;
         align-items: center;
+        background-color: #dfb9a83a;
+        border-radius: 27px;
+
+
 
 
         &:hover {
@@ -34,6 +41,9 @@
             cursor: pointer;
         }
 
+        @media (min-width: 768px) {
+            max-width: 60%;
+        }
 
     }
 

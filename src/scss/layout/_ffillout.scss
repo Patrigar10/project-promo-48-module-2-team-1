@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 20px;
 
     &__display {
         margin-top: 20px;
@@ -14,6 +15,7 @@
     @media (min-width: 768px) {
         max-width: 60%;
     }
+
 }
 
 .fillout__header {
@@ -23,11 +25,17 @@
     align-items: center;
 
 
+    background-color: #dfb9a83a;
+    border-radius: 27px;
 
 
     &:hover {
         background-color: #dfb9a863;
         cursor: pointer;
+    }
+
+    @media (min-width: 768px) {
+        max-width: 60%;
     }
 
 }
