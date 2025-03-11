@@ -6,3 +6,4 @@ import "./fshare.js";
 import "./collapsable.js";
 import "./reset.js";
 import "./get-avatar.js";
+import "./server.js";
