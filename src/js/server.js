@@ -10,7 +10,7 @@ const linkCard = document.querySelector(".js-linkCard");
 
 function handleCreateCard(ev) {
   ev.preventDefault();
-  console.log(JSON.stringify(formData));
+  // console.log(JSON.stringify(formData));
   fetch("https://dev.adalab.es/api/info/data", {
     method: "POST",
     body: JSON.stringify(formData),
@@ -20,7 +20,7 @@ function handleCreateCard(ev) {
     .then((data) => {
       console.log(data);
       const idCard = data.infoId;
-      //   console.log(idCard);
+      // console.log(idCard);
       linkCard.classList.remove("hidden");
       linkCard.href = `./card.html?id=${idCard}`;
     });
