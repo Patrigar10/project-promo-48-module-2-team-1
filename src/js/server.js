@@ -13,7 +13,7 @@ function handleCreateCard(ev) {
   fetch("https://dev.adalab.es/api/info/data", {
     method: "POST",
     body: JSON.stringify(formData),
-    headers: { "Content-type": "aplication/json" },
+    headers: { "Content-type": "application/json" },
   })
     .then((response) => response.json())
     .then((data) => {
