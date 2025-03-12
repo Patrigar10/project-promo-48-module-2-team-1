@@ -17,6 +17,7 @@ function handleCreateCard(ev) {
   })
     .then((response) => response.json())
     .then((data) => {
+      console.log(data);
       const idCard = data.infoId;
       //   console.log(idCard);
       linkCard.classList.remove("hidden");
