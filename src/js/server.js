@@ -10,10 +10,11 @@ const linkCard = document.querySelector(".js-linkCard");
 
 function handleCreateCard(ev) {
   ev.preventDefault();
+  console.log(JSON.stringify(formData));
   fetch("https://dev.adalab.es/api/info/data", {
     method: "POST",
     body: JSON.stringify(formData),
-    headers: { "Content-type": "aplication/json" },
+    headers: { "Content-type": "application/json" },
   })
     .then((response) => response.json())
     .then((data) => {
