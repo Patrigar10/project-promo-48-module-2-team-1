@@ -13,27 +13,25 @@
         href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Roboto+Slab:wght@100..900&display=swap"
         rel="stylesheet">
     
-  <link rel="stylesheet" href="./assets/form-53a94117.css">
-  <link rel="stylesheet" href="./assets/main-ce804c08.css">
+  <link rel="stylesheet" href="./assets/form-8bd5e3d9.css">
+  <link rel="stylesheet" href="./assets/main-d14cc425.css">
 </head>
 
 <body>
-    <header>
-        <div class="header">
+
+    <div class="header">
     <a href="./index.html"><img class="header__img" src="./assets/logo-adjusted-e33cba83.jpg"
             alt="logo ilustración de un conejo"></a>
 </div>
-    </header>
     <div class="form">
         <section class="form__fieldsets">
             <form class="js-formfill form-fill" action="">
                 <fieldset class="design">
 
-   <div class="design-tittle">
-      <legend>Elige el modelo que más te guste</legend>
-      <button class="js-design-arrow design-arrow">
-         <i class="fa-solid fa-caret-down design-tittle-arrow" style="color: #dfb9a8;"></i>
-      </button>
+   <div class="design-tittle js_collapsable_header js_legend_design">
+      <i class="fa-solid fa-palette" style="color: #dfb9a8;"></i>
+      <legend class="">Elige tu diseño</legend>
+      <i class="fa-solid fa-caret-down design-tittle-arrow design-arrow" style="color: #dfb9a8;"></i>
    </div>
 
    <section class="design-models js-design-models collapsed">
@@ -53,21 +51,14 @@
 
 </fieldset>
                 <fieldset class="fillout">
-    <div class="fillout__header">
-        <legend class="fillout__legend">Introduce tus datos</legend>
-        <nav>
-            <ul>
-                <li>
-                    <button class="js-btn-add button-intro">
-                        <i class="fa-solid fa-caret-down fillout__icon" style="color: #dfb9a8;"></i>
-                    </button>
-                </li>
-            </ul>
-        </nav>
+    <div class="fillout__header fillout__legend js_collapsable_header js_legend_fillout">
+        <i class="fa-solid fa-keyboard" style="color: #dfb9a8;"></i>
+        <legend class="">Introduce tus datos</legend>
+        <i class="fa-solid fa-caret-down fillout__icon button-intro" style="color: #dfb9a8;"></i>
 
     </div>
 
-    <div class="js-fillout-display collapsed">
+    <div class="fillout__display js-fillout-display collapsed">
 
         <label class="fillout__label" for="name">Nombre</label>
         <input class="fillout__input" id="name" type="text" name="name" placeholder="Nombre">
@@ -101,17 +92,21 @@
 </fieldset>
                 <fieldset class="share">
 
-  <div class="share__section">
+  <div class="share__section js_collapsable_header js_legend_share">
+    <i class="fa-solid fa-share-nodes" style="color: #dfb9a8;"></i>
     <legend>Comparte</legend>
-    <button class="js-btn-shareDisplay btn-shareDisplay">
-      <i class="fa-solid fa-caret-down" style="color: #dfb9a8;"></i>
-    </button>
+    <i class="fa-solid fa-caret-down btn-shareDisplay" style="color: #dfb9a8;"></i>
   </div>
 
   <section class="js-shareOptions shareOptions collapsed">
-    <button class="js-share-btn-createCard share-btn-createCard">Crear invitación</button>
+    <div>
+      <button class="js-share-btn-createCard share-btn-createCard js-createCard-btn">Crear invitación</button>
+
+    </div>
     <p class="js-createdCardText">La invitación ha sido creada:</p>
-    <div class="share-socialMedia">
+    <a class="js-linkCard hidden" href="https:....">Link a la tarjeta</a>
+
+    <div class="share-socialMedia hidden">
       <i class="fa-solid fa-mobile-screen" style="color: #dfb9a8;"></i>
       <i class="fa-solid fa-envelope" style="color: #dfb9a8;"></i>
       <i class="fa-brands fa-instagram" style="color: #dfb9a8;"></i>
@@ -123,10 +118,7 @@
             </form>
         </section>
         <section class="form__preview">
-            <div class="reset__box">
-    <button class="reset-btn js-reset-btn" type="reset">RESET</button>
-</div>
-<section class="preview">
+            <section class="preview">
     <h1>¡Te invito a mi cumpleaños!</h1>
     <div class="preview__card js-previewCard">
         <div class="card__image">
@@ -139,6 +131,9 @@
             <li class="js-preview-date">Fecha</li>
             <li class="js-preview-age">Edad</li>
         </ul>
+    </div>
+    <div class="reset__box">
+        <button class="reset-btn js-reset-btn" type="reset">RESET</button>
     </div>
 
 
