@@ -11,10 +11,13 @@ const dateCard = document.querySelector(".js-preview-date");
 const ageCard = document.querySelector(".js-preview-age");
 
 const urlParam = new URLSearchParams(window.location.search);
-const id = urlParam.get("idCard");
+const id = urlParam.get("id");
 
 fetch(`https://dev.adalab.es/api/info/${id}`)
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
+    const targetData = data.data;
+    //photoCard.innerHTML = targetData.photo;
+    //nameCard.innerHTML = targetData.field2;
   });
