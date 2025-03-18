@@ -82,3 +82,27 @@
 .hidden {
     display: none;
 }
+
+
+.divLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.linkCard {
+    background-color: hwb(19 66% 13% / 0.659);
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+.twitter-share-button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(44, 157, 233, 0.678);
+    padding: 7px;
+    margin: 7px;
+    border-radius: 10px;
+}

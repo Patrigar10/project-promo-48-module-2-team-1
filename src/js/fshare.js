@@ -18,8 +18,10 @@
 const buttonCreateCard = document.querySelector(".js-share-btn-createCard");
 const createdCardText = document.querySelector(".js-createdCardText");
 
+/*
 function handleClickFour(event) {
   event.preventDefault();
 
 }
 buttonCreateCard.addEventListener("click", handleClickFour);
+*/
