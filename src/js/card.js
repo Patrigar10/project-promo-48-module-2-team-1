@@ -1,5 +1,9 @@
 "use  strict";
 
+const photoCard = document.querySelector(".js__profile-preview");
+const radio1Card = document.querySelector(".js-model1");
+const radio2Card = document.querySelector(".js-model2");
+const radio3Card = document.querySelector(".js-model3");
 const nameCard = document.querySelector(".js-preview-name");
 const phraseCard = document.querySelector(".js-preview-phrase");
 const placeCard = document.querySelector(".js-preview-place");
