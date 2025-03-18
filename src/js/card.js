@@ -20,6 +20,8 @@ fetch(`https://dev.adalab.es/api/info/${id}`)
   .then((data) => {
     console.log(data);
     const targetData = data.data;
+    photoCard.src = targetData.photo;
+    console.log(targetData);
     photoCard.innerHTML = `<img src="${targetData.photo}" alt="Foto de perfil">`;
     nameCard.innerHTML = targetData.field2;
     phraseCard.innerHTML = targetData.field3;

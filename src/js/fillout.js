@@ -32,6 +32,6 @@ formFill.addEventListener("input", (event) => {
   } else if (event.target.id === "age") {
     previewAge.innerHTML = event.target.value || "Edad";
     formData.field6 = event.target.value;
-  }
-  console.log(formData);
+  } else
+    console.log(formData);
 });
