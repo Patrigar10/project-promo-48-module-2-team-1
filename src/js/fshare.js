@@ -20,6 +20,6 @@ const createdCardText = document.querySelector(".js-createdCardText");
 
 function handleClickFour(event) {
   event.preventDefault();
-  createdCardText.classList.toggle("collapsed");
+
 }
 buttonCreateCard.addEventListener("click", handleClickFour);
