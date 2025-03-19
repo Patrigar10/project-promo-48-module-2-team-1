@@ -1,36 +1,36 @@
 
-🎉 # HAPPY EVENT. Personaliza tu tarjeta de cumpleaños
+# HAPPY EVENT. Personaliza tu tarjeta de cumpleaños
 
 Este es un proyecto web que permite a los usuarios crear y personalizar tarjetas de cumpleaños de forma sencilla e interactiva.
 
-🚀 ### Características
+### Características
 
-🌟 ### Landing Page: Página de presentación con información sobre la herramienta.
+### Landing Page: Página de presentación con información sobre la herramienta.
 
-📝 ### Formulario de Personalización: Permite ingresar detalles personalizados, como:
+### Formulario de Personalización: Permite ingresar detalles personalizados, como:
 
-📸 ### Subir una foto
+### Subir una foto
 
-🎨 ### Elegir un fondo infantil
+### Elegir un fondo infantil
 
-✍️ ### Añadir nombre y frase personalizada
+### Añadir nombre y frase personalizada
 
-📅 ### Incluir lugar y fecha del cumpleaños
+### Incluir lugar y fecha del cumpleaños
 
-🎂 ### Especificar la edad que se cumple
+### Especificar la edad que se cumple
 
-👀 ### Previsualización en tiempo real de la tarjeta personalizada.
+### Previsualización en tiempo real de la tarjeta personalizada.
 
-🔄 ### Opciones de Reseteo: Permite restablecer el formulario y comenzar desde cero.
+### Opciones de Reseteo: Permite restablecer el formulario y comenzar desde cero.
 
-📤 ### Compartir la Tarjeta con familiares y amigos.
+### Compartir la Tarjeta con familiares y amigos.
 
-🛠️ ## Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - HTML, CSS y JavaScript
 
 
-📦 ##Instalación y Uso
+##Instalación y Uso
 
 1. **Instala las dependencias** locales ejecutando en la terminal el comando:
 
