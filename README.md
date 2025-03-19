@@ -3,7 +3,7 @@
 
 Este es un proyecto web que permite a los usuarios crear y personalizar tarjetas de cumpleaños de forma sencilla e interactiva.
 
-- Características
+## Características
 
 - Landing Page: Página de presentación con información sobre la herramienta.
 
@@ -25,12 +25,12 @@ Este es un proyecto web que permite a los usuarios crear y personalizar tarjetas
 
 - Compartir la Tarjeta con familiares y amigos.
 
-- Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - HTML, CSS y JavaScript
 
 
-##Instalación y Uso
+## Instalación y Uso
 
 1. **Instala las dependencias** locales ejecutando en la terminal el comando:
 
