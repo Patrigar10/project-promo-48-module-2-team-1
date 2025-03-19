@@ -9,9 +9,7 @@ const createCardButton = document.querySelector(".js-createCard-btn");
 const linkCard = document.querySelector(".js-linkCard");
 const divLinks = document.querySelector(".js-divLinks");
 const phrase = document.querySelector(".js-phrase");
-const twitterBtn = document.querySelector(".js-twitterBtn")
-
-
+const twitterBtn = document.querySelector(".js-twitterBtn");
 
 function handleCreateCard(ev) {
   ev.preventDefault();
@@ -31,28 +29,26 @@ function handleCreateCard(ev) {
       phrase.classList.remove("hidden");
       twitterBtn.classList.remove("hidden");
       whatsappBtn.classList.remove("hidden");
-      linkCard.href = `/project-promo-48-module-2-team-1/card.html?id=${idCard}`;
-      linkCard.innerHTML = `./card.html?id=${idCard}`
+      linkCard.href = `./card.html?id=${idCard}`;
+      linkCard.innerHTML = `./card.html?id=${idCard}`;
     });
 }
 
 createCardButton.addEventListener("click", handleCreateCard);
-
 
 const whatsappBtn = document.querySelector(".js-whatsappBtn");
 
 function handleShareToWhatsApp() {
   const link = linkCard.href;
   const message = `¡Te invito a mi cumple!! ${link}`;
-  const whatsappURL = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+  const whatsappURL = `https://api.whatsapp.com/send?text=${encodeURIComponent(
+    message
+  )}`;
 
-
-  window.open(whatsappURL, "_blank");  // Abre la URL de WhatsApp
+  window.open(whatsappURL, "_blank"); // Abre la URL de WhatsApp
 }
 
 whatsappBtn.addEventListener("click", handleShareToWhatsApp);
-
-
 
 /*
     // Actualizamos el link con la URL de la tarjeta
