@@ -24,6 +24,7 @@ function handleCreateCard(ev) {
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
+      // photoCard.src = targetData.photo;
       const idCard = data.infoID;
       console.log(idCard);
       linkCard.classList.remove("hidden");
@@ -35,6 +36,22 @@ function handleCreateCard(ev) {
 }
 
 createCardButton.addEventListener("click", handleCreateCard);
+
+
+const whatsappBtn = document.querySelector(".js-whatsappBtn");
+
+function handleShareToWhatsApp() {
+  const link = linkCard.href;
+  const message = `¡Te invito a mi cumple!! ${link}`;
+  const whatsappURL = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+
+
+  window.open(whatsappURL, "_blank");  // Abre la URL de WhatsApp
+}
+
+whatsappBtn.addEventListener("click", handleShareToWhatsApp);
+
+
 
 /*
     // Actualizamos el link con la URL de la tarjeta
