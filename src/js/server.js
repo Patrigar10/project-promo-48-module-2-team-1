@@ -7,6 +7,11 @@ Mostrar enlace a la usuaria. */
 
 const createCardButton = document.querySelector(".js-createCard-btn");
 const linkCard = document.querySelector(".js-linkCard");
+const divLinks = document.querySelector(".js-divLinks");
+const phrase = document.querySelector(".js-phrase");
+const twitterBtn = document.querySelector(".js-twitterBtn")
+
+
 
 function handleCreateCard(ev) {
   ev.preventDefault();
@@ -22,7 +27,10 @@ function handleCreateCard(ev) {
       const idCard = data.infoID;
       console.log(idCard);
       linkCard.classList.remove("hidden");
+      phrase.classList.remove("hidden");
+      twitterBtn.classList.remove("hidden");
       linkCard.href = `./card.html?id=${idCard}`;
+      linkCard.innerHTML = `./card.html?id=${idCard}`
     });
 }
 
