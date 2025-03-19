@@ -14,7 +14,7 @@ resetBtn.addEventListener("click", (event) => {
   previewCard.classList.remove("background__model1");
   previewCard.classList.remove("background__model2");
   previewCard.classList.remove("background__model3");
-  document.querySelector(".js__profile-image").src = "/Images/nina.webp";
-  document.querySelector(".js__profile-preview").src = "/Images/nina.webp";
+  document.querySelector(".js__profile-image").src = "/Images/nina.png";
+  document.querySelector(".js__profile-preview").src = "/Images/nina.png";
   document.querySelector(".js__profile-upload-btn").value = "";
 });
