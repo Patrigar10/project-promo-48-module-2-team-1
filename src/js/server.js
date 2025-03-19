@@ -30,6 +30,7 @@ function handleCreateCard(ev) {
       linkCard.classList.remove("hidden");
       phrase.classList.remove("hidden");
       twitterBtn.classList.remove("hidden");
+      whatsappBtn.classList.remove("hidden");
       linkCard.href = `./card.html?id=${idCard}`;
       linkCard.innerHTML = `./card.html?id=${idCard}`
     });
