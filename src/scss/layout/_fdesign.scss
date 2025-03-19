@@ -18,11 +18,13 @@
         margin-top: 20px;
 
         @media (min-width: 768px) {
-            margin-left: 170px;
+            display: flex;
+            justify-content: center;
         }
 
         @media (min-width: 1024px) {
-            margin-left: 150px;
+            display: flex;
+            justify-content: center;
         }
 
 
