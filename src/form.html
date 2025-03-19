@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="scss/layout/_ffillout.scss">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/layout/_ffillout.scss" />
     <title>happy event</title>
-    <script src="https://kit.fontawesome.com/ea1e0d8741.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script
+      src="https://kit.fontawesome.com/ea1e0d8741.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Roboto+Slab:wght@100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./scss/main.scss">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./scss/main.scss" />
+  </head>
 
-<body>
-
+  <body>
     <load src="./partials/header.html" />
     <div class="form">
-        <section class="form__fieldsets">
-            <form class="js-formfill form-fill" action="">
-                <load src="./partials/fdesign.html" />
-                <load src="./partials/ffillout.html" />
-                <load src="./partials/fshare.html" />
-            </form>
-        </section>
-        <section class="form__preview">
-            <load src="./partials/preview.html" />
-        </section>
+      <section class="form__fieldsets">
+        <form class="js-formfill form-fill" action="">
+          <load src="./partials/fdesign.html" />
+          <load src="./partials/ffillout.html" />
+          <load src="./partials/fshare.html" />
+        </form>
+      </section>
+      <section class="form__preview">
+        <load src="./partials/preview.html" />
+        <div class="reset__box">
+          <button class="reset-btn js-reset-btn" type="reset">RESET</button>
+        </div>
+      </section>
     </div>
     <load src="./partials/footer.html" />
     <script type="text/javascript" src="./js/main.js"></script>
-</body>
-
+  </body>
 </html>
