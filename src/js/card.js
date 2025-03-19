@@ -40,3 +40,5 @@ fetch(`https://dev.adalab.es/api/info/${id}`)
       previewCard.classList.remove("background__model1", "background__model2");
     }
   });
+
+

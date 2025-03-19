@@ -43,7 +43,7 @@ function handleCreateCard(ev) {
 
   // Actualizamos el link con la URL de la tarjeta
   linkCard.href = `./card.html?id=${idCard}`;
-  linkCard.classList.remove("hidden"); // Mostramos el link
+  // linkCard.classList.remove("hidden"); // Mostramos el link
 
   // Mostramos el contenido de los links
   divLinks.classList.remove("hidden");
