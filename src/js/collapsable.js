@@ -15,7 +15,7 @@ const handleClick = (event) => {
     filloutFormDisplay.classList.toggle("collapsed");
     designModels.classList.add("collapsed");
     shareOptions.classList.add("collapsed");
-  } else {
+  } else if (event.currentTarget.classList.contains("js_legend_share")) {
     shareOptions.classList.toggle("collapsed");
     filloutFormDisplay.classList.add("collapsed");
     designModels.classList.add("collapsed");
