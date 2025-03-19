@@ -11,16 +11,6 @@ const linkCard = document.querySelector(".js-linkCard");
 const divLinks = document.querySelector(".js-divLinks");
 
 
-// Función para manejar el clic en "Comparte"
-function handleShareClick(ev) {
-  ev.preventDefault();
-
-  // Ocultamos el resto del contenido (divLinks)
-  divLinks.classList.add("hidden");
-}
-shareOptions2.addEventListener("click", handleShareClick);
-
-
 
 // Función para crear de la invitación:
 function handleCreateCard(ev) {
@@ -40,13 +30,14 @@ function handleCreateCard(ev) {
       linkCard.href = `./card.html?id=${idCard}`;
     });
 
-
-  // Actualizamos el link con la URL de la tarjeta
-  linkCard.href = `./card.html?id=${idCard}`;
-  // linkCard.classList.remove("hidden"); // Mostramos el link
-
-  // Mostramos el contenido de los links
-  divLinks.classList.remove("hidden");
+  /*
+    // Actualizamos el link con la URL de la tarjeta
+    linkCard.href = `./card.html?id=${idCard}`;
+    // linkCard.classList.remove("hidden"); // Mostramos el link
+  
+    // Mostramos el contenido de los links
+    divLinks.classList.remove("hidden");
+    */
 
 }
 createCardButton.addEventListener("click", handleCreateCard);
